@@ -15,7 +15,6 @@ trs = soup.find_all('tr')
 for tr in trs:
     for link in tr.find_all('a'):
         fulllink = link.get ('href')
-        print fulllink[0]
 
     tds = tr.find_all("td")
 
